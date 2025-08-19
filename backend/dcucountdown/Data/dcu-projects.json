@@ -1,0 +1,33 @@
+[
+    {
+        "slug": "supergirl-20265",
+        "title": "Supergirl",
+        "type": "film",
+        "chapter": "Gods and Monsters",
+        "status": "released_theatrical",
+        "release": {
+            "theatrical": "2026-06-26T00:00:00Z",
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
+        "links": { "official": "No Trailer!" }
+    },
+    {
+        "slug": "superman-2025",
+        "title": "Superman",
+        "type": "film",
+        "chapter": "Gods and Monsters",
+        "status": "released_theatrical",
+        "release": {
+            "theatrical": "2026-02-26T00:00:00Z",
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
+        "links": { "official": "No Trailer!" }
+    }
+
+]

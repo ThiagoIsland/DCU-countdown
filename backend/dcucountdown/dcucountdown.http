@@ -1,0 +1,6 @@
+@dcucountdown_HostAddress = http://localhost:5062
+
+GET {{dcucountdown_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
