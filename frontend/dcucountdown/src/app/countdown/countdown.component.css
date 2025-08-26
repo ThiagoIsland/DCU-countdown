@@ -9,7 +9,7 @@
 
 .loading {
   text-align: center;
-  color: #ffffff;
+  color: #2f2c3f;
   font-style: italic;
 }
 
@@ -22,7 +22,7 @@
 
 .no-data {
   text-align: center;
-  color: #ffebee;
+  color: #2f2c3f;
   font-style: italic;
 }
 
