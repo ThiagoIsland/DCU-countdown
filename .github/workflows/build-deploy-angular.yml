@@ -21,12 +21,12 @@ jobs:
         working-directory: frontend/dcucountdown
       
       - name: Build Angular app
-        run: npm run build -- --configuration production --output-path=dist
+        run: npm run build
         working-directory: frontend/dcucountdown
       
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./frontend/dcucountdown/dist
+          publish_dir: ./frontend/dcucountdown/dist/dcucountdown/browser
           cname: 
