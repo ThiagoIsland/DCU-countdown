@@ -1,4 +1,13 @@
 <div class="card">
+  <div *ngIf="loading" class="loading">
+    <p>Loading DCU projects...</p>
+  </div>
+
+  <div *ngIf="error && !loading" class="error">
+    <p>Unable to load projects. Please try again later.</p>
+    <p>Make sure the backend API is running.</p>
+  </div>
+
   <div *ngIf="project && !loading && !error">
     <h2>{{ project.title }}</h2>
     <h3>{{ project.chapter}}</h3>
@@ -13,4 +22,7 @@
     </p>
   </div>
 
+  <div *ngIf="!project && !loading && !error" class="no-data">
+    <p>No DCU projects found.</p>
+  </div>
 </div>
