@@ -1,0 +1,31 @@
+name: Build & Deploy API
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup .NET 9.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      
+      - name: Restore dependencies
+        run: dotnet restore backend/dcucountdown/dcucountdown.csproj
+      
+      - name: Build
+        run: dotnet build backend/dcucountdown/dcucountdown.csproj --no-restore --configuration Release
+      
+      - name: Test
+        run: dotnet test backend/dcucountdown/dcucountdown.csproj --no-build --verbosity normal
+      
+      - name: Publish
+        run: dotnet publish backend/dcucountdown/dcucountdown.csproj -c Release -o ./publish --no-build
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-artifact
+          path: ./publish

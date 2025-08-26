@@ -32,6 +32,19 @@ namespace dcucountdown.endpoints
                 return nextProject is null ? Results.NotFound() : Results.Ok(nextProject);
             });
 
+            app.MapGet("/api/lastRelease", () =>
+            {
+                var lastProject = projects.Select(p => new
+                {
+                    Project = p,
+                    lastDate = p.Release.Theatrical ?? p.Release.Streaming ?? p.Release.Pvod
+                })
+                .Where(p => p.lastDate != null && p.lastDate < DateTimeOffset.UtcNow)
+                .OrderBy(p => p.lastDate)
+                .FirstOrDefault();
+
+                return lastProject is null ? Results.NotFound() : Results.Ok(lastProject);
+            });
 
 
         }

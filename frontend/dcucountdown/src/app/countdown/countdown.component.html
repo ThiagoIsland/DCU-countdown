@@ -1,0 +1,16 @@
+<div class="card">
+  <div *ngIf="project && !loading && !error">
+    <h2>{{ project.title }}</h2>
+    <h3>{{ project.chapter}}</h3>
+    <h3>Project Type: {{ project.type}}</h3>
+    <p>
+      Will be Released in:
+      {{ project.release.theatrical || project.release.streaming || project.release.pvod | date:'mediumDate' }}
+    </p>
+    <p>
+      Days to be released:
+      {{ project.release.theatrical || project.release.streaming || project.release.pvod | countdown }}
+    </p>
+  </div>
+
+</div>

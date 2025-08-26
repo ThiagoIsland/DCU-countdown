@@ -1,6 +1,6 @@
 [
     {
-        "slug": "supergirl-20265",
+        "slug": "supergirl-2026",
         "title": "Supergirl",
         "type": "film",
         "chapter": "Gods and Monsters",
@@ -12,7 +12,7 @@
         },
         "image": null,
         "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
-        "links": { "official": "No Trailer!" }
+        "links": { "official": "https://www.youtube.com/watch?v=Ox8ZLF6cGM0" }
     },
     {
         "slug": "superman-2025",
@@ -21,13 +21,43 @@
         "chapter": "Gods and Monsters",
         "status": "released_theatrical",
         "release": {
-            "theatrical": "2026-02-26T00:00:00Z",
+            "theatrical": "2025-02-26T00:00:00Z",
             "pvod": null,
             "streaming": null
         },
         "image": null,
         "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
         "links": { "official": "No Trailer!" }
+    },
+    {
+        "slug": "peacemaker-s1",
+        "title": "Peacemaker - Season 1",
+        "type": "Streaming Show",
+        "chapter": "Before Gods and Monsters",
+        "status": "released_streaming",
+        "release": {
+            "theatrical": null,
+            "pvod": null,
+            "streaming": "2022-01-13T00:00:00Z"
+        },
+        "image": null,
+        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
+        "links": { "official": "https://www.youtube.com/watch?v=WHXq62VCaCM" }
+    },
+    {
+        "slug": "peacemaker-s2",
+        "title": "Peacemaker - Season 2",
+        "type": "Streaming Show",
+        "chapter": "Gods and Monsters",
+        "status": "released_streaming",
+        "release": {
+            "theatrical": null,
+            "pvod": null,
+            "streaming": "2025-08-21T00:00:00Z"
+        },
+        "image": null,
+        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
+        "links": { "official": "https://www.youtube.com/watch?v=f6AZTfI54OU" }
     }
 
 ]
