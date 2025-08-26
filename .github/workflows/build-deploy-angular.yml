@@ -21,7 +21,7 @@ jobs:
         working-directory: frontend/dcucountdown
       
       - name: Build Angular app
-        run: npm run build
+        run: npm run build -- --base-href=/DCU-countdown/
         working-directory: frontend/dcucountdown
       
       - name: Deploy to GitHub Pages
