@@ -1,39 +1,10 @@
 [
     {
-        "slug": "supergirl-2026",
-        "title": "Supergirl",
-        "type": "film",
-        "chapter": "Gods and Monsters",
-        "status": "released_theatrical",
-        "release": {
-            "theatrical": "2026-06-26T00:00:00Z",
-            "pvod": null,
-            "streaming": null
-        },
-        "image": null,
-        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
-        "links": { "official": "No Trailer!" }
-    },
-    {
-        "slug": "superman-2025",
-        "title": "Superman",
-        "type": "film",
-        "chapter": "Gods and Monsters",
-        "status": "released_theatrical",
-        "release": {
-            "theatrical": "2025-02-26T00:00:00Z",
-            "pvod": null,
-            "streaming": null
-        },
-        "image": null,
-        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
-        "links": { "official": "https://www.youtube.com/watch?v=Ox8ZLF6cGM0" }
-    },
-    {
         "slug": "peacemaker-s1",
         "title": "Peacemaker - Season 1",
         "type": "Streaming Show",
         "chapter": "Before Gods and Monsters",
+        "universe": "DCU",
         "status": "released_streaming",
         "release": {
             "theatrical": null,
@@ -41,14 +12,37 @@
             "streaming": "2022-01-13T00:00:00Z"
         },
         "image": null,
-        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
-        "links": { "official": "https://www.youtube.com/watch?v=WHXq62VCaCM" }
+        "sources": [],
+        "links": {
+            "official": "https://www.youtube.com/watch?v=WHXq62VCaCM"
+        }
+    },
+    {
+        "slug": "superman-2025",
+        "title": "Superman",
+        "type": "film",
+        "chapter": "Gods and Monsters",
+        "universe": "DCU",
+        "status": "released_theatrical",
+        "release": {
+            "theatrical": "2025-07-11T00:00:00Z",
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [
+            "https://www.dc.com/movies/superman-2025"
+        ],
+        "links": {
+            "official": "https://www.youtube.com/watch?v=Ox8ZLF6cGM0"
+        }
     },
     {
         "slug": "peacemaker-s2",
         "title": "Peacemaker - Season 2",
         "type": "Streaming Show",
         "chapter": "Gods and Monsters",
+        "universe": "DCU",
         "status": "released_streaming",
         "release": {
             "theatrical": null,
@@ -56,22 +50,125 @@
             "streaming": "2025-08-21T00:00:00Z"
         },
         "image": null,
-        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
-        "links": { "official": "https://www.youtube.com/watch?v=f6AZTfI54OU" }
-    }
-        {
-        "slug": "superman-2026",
-        "title": "Man of Tomorrow",
+        "sources": [],
+        "links": {
+            "official": "https://www.youtube.com/watch?v=f6AZTfI54OU"
+        }
+    },
+    {
+        "slug": "supergirl-2026",
+        "title": "Supergirl",
         "type": "film",
         "chapter": "Gods and Monsters",
+        "universe": "DCU",
         "status": "released_theatrical",
         "release": {
-            "theatrical": "2026-04-01T00:00:00Z",
+            "theatrical": "2026-06-26T00:00:00Z",
             "pvod": null,
             "streaming": null
         },
         "image": null,
-        "sources": [ "turn0search6", "turn0search9", "turn0news35" ],
-        "links": { "official": "No Trailer!" }
+        "sources": [],
+        "links": {
+            "official": null
+        }
+    },
+    {
+        "slug": "lanterns-s1",
+        "title": "Lanterns - Season 1",
+        "type": "Streaming Show",
+        "chapter": "Gods and Monsters",
+        "universe": "DCU",
+        "status": "released_streaming",
+        "release": {
+            "theatrical": null,
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [],
+        "links": {
+            "official": null
+        }
+    },
+    {
+        "slug": "clayface-2026",
+        "title": "Clayface",
+        "type": "film",
+        "chapter": "Gods and Monsters",
+        "universe": "DCU",
+        "status": "upcoming",
+        "release": {
+            "theatrical": "2026-10-23T00:00:00Z",
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [
+            "https://www.clayfacemovie.com/"
+        ],
+        "links": {
+            "official": "https://www.clayfacemovie.com/"
+        }
+    },
+    {
+        "slug": "man-of-tomorrow-2027",
+        "title": "Superman: Man of Tomorrow",
+        "type": "film",
+        "chapter": "Gods and Monsters",
+        "universe": "DCU",
+        "status": "upcoming",
+        "release": {
+            "theatrical": "2027-07-09T00:00:00Z",
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [
+            "https://www.dc.com/blog/2025-09-03/superman-sequel-coming-to-theaters-in-2027"
+        ],
+        "links": {
+            "official": null
+        }
+    },
+    {
+        "slug": "the-batman-part-ii-2028",
+        "title": "The Batman: Part II",
+        "type": "film",
+        "chapter": "Elseworlds",
+        "universe": "Elseworlds",
+        "status": "upcoming",
+        "release": {
+            "theatrical": "2028-02-18T00:00:00Z",
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [
+            "https://www.rottentomatoes.com/m/the_batman_part_ii"
+        ],
+        "links": {
+            "official": null
+        }
+    },
+    {
+        "slug": "dynamic-duo-2028",
+        "title": "Dynamic Duo",
+        "type": "animated_film",
+        "chapter": "Elseworlds",
+        "universe": "Elseworlds",
+        "status": "upcoming",
+        "release": {
+            "theatrical": "2028-09-22T00:00:00Z",
+            "pvod": null,
+            "streaming": null
+        },
+        "image": null,
+        "sources": [
+            "https://www.omelete.com.br/filmes/dupla-dinamica-filme-dupla-de-robins-adiado"
+        ],
+        "links": {
+            "official": null
+        }
     }
 ]
